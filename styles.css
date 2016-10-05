@@ -14,6 +14,16 @@ h3, h4 {
     padding: 80px 120px;
 }
 
+.imgContact {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 150px;
+}
+
+.imgContact:hover {
+    border-color: #f1f1f1;
+}
+
 .person {
     border: 10px solid transparent;
     margin-bottom: 25px;
@@ -77,3 +87,5 @@ h3, h4 {
 .navbar-default .navbar-toggle {
     border-color: transparent;
 }
+
+
