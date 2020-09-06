@@ -219,6 +219,18 @@ a.researcher-profile-href-dblp:hover {
   background-image: url(../img/dblp-512-hover.png);
 }
 
+a.researcher-profile-href-orcid {
+  display:inline-block;
+  width: 56;
+  height: 56;
+  background: url(../img/orcid-512.png) no-repeat center center;
+  background-size: contain;
+}
+
+a.researcher-profile-href-orcid:hover {
+  background-image: url(../img/orcid-512-hover.png);
+}
+
 .article-name {
   color: #868e96;
 }
