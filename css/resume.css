@@ -42,6 +42,15 @@ h3 {
   font-size: 2rem;
 }
 
+.h3-custom {
+  font-size: 1.9rem;
+}
+
+.h3-custom:hover, .h3-custom:focus, .h3-custom:active {
+  color: #824027;
+  text-decoration: none;
+}
+
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
@@ -171,4 +180,49 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+  text-decoration: none;
+}
+
+a.researcher-profile-href-google {
+  display:inline-block;
+  width: 56;
+  height: 56;
+  background: url(../img/google-512.png) no-repeat center center;
+  background-size: contain;
+}
+
+a.researcher-profile-href-google:hover {
+  background-image: url(../img/google-512-hover.png);
+}
+
+a.researcher-profile-href-researchgate {
+  display:inline-block;
+  width: 56;
+  height: 56;
+  background: url(../img/researchgate-512.png) no-repeat center center;
+  background-size: contain;
+}
+
+a.researcher-profile-href-researchgate:hover {
+  background-image: url(../img/researchgate-512-hover.png);
+}
+
+a.researcher-profile-href-dblp {
+  display:inline-block;
+  width: 56;
+  height: 56;
+  background: url(../img/dblp-512.png) no-repeat center center;
+  background-size: contain;
+}
+
+a.researcher-profile-href-dblp:hover {
+  background-image: url(../img/dblp-512-hover.png);
+}
+
+.article-name {
+  color: #868e96;
+}
+
+.article-name:hover {
+  text-decoration: underline;
 }
