@@ -233,6 +233,8 @@ a.researcher-profile-href-orcid:hover {
 
 .article-name {
   color: #868e96;
+  text-transform: none;
+  text-align: justify;
 }
 
 .article-name:hover {
