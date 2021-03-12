@@ -237,6 +237,10 @@ a.researcher-profile-href-orcid:hover {
   text-align: justify;
 }
 
+.no-text-transform-uppercase {
+  text-transform: none;
+}
+
 .article-name:hover {
   text-decoration: underline;
 }
